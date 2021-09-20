@@ -1,0 +1,47 @@
+@import url('header.css');
+@import url('buttons.css');
+@import url('buttons-icon.css');
+@import url('hero.css');
+@import url('wrapper.css');
+@import url('menu.css');
+@import url('description.css');
+@import url('project.css');
+@import url('social.css');
+@import url('footer.css');
+@import url('formulario.css');
+@import url('title.css');
+
+
+
+
+
+
+:root{
+    --fontBase:'Poppins', sans-serif;
+    --fontSecondary:'Oxygen', sans-serif;
+    --headline1: 700 5.9375rem/9.6068754196167rem var(--fontBase); 
+    --headline2: 700 3.6875rem/5.96637487411499rem var(--fontBase); 
+    --headline3: 700 3rem/4.854000091552734rem var(--fontBase);
+    --headline4: 700 2.125rem/3.4382500648498535rem var(--fontBase)s; 
+    --headline5: 700 1.5rem/2.427000045776367rem var(--fontBase); 
+    --body1: 400 1rem/1.6180000305175781rem var(--fontBase); 
+    --body2: 400 0.875rem/1.4157500267028809rem var(--fontBase); 
+    --button: 700 0.875rem/1.4157500267028809rem var(--fontBase); 
+    --caption: 400 0.75rem/1.2135000228881836rem var(--fontBase); 
+    --purple: #310A90;
+    --green:#42E2B8;
+    --white:#fff;
+    --comment1: 300 34px/55px var(--fontSecondary);
+    --comment2: 900 34px/55px var(--fontSecondary);
+    --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+
+}
+body{
+    font: var(--body1);
+    background: var(--gradient);
+    min-block-size: 100vh;
+    font-weight: bold;
+    color: var(--purple);
+    margin:0;
+    
+}

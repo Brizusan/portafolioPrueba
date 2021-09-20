@@ -1,0 +1,21 @@
+.btn-icon{
+    padding: 10px;
+    border-radius: 4px;
+    background: var(--white);
+    border: 2px solid var(--purple);
+    display: inline-block;
+}
+.btn-icon img{
+    vertical-align: middle;
+}
+
+.btn-icon.arrow{
+    background: none;  
+}
+.btn-icon.btn-icon.arrow img{
+    inline-size: 80px;
+    block-size: 80px;
+    margin: 24px 0;
+    color: var(--purple);
+
+}

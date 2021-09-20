@@ -1,0 +1,15 @@
+.description{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 130px;
+}
+.description span:nth-child(1){
+    display: block;    
+    margin-bottom: 24px;
+    font: var(--comment1);
+}
+.description span:nth-child(2){
+    font:var(--headline5);
+    display: block;
+    margin-bottom: 24px;
+}
